@@ -1,17 +1,24 @@
-# education_app
+# Flutter Clean Architecture with TDD | BLoC | Cubit  
 
-A new Flutter project.
+Welcome to the **Flutter Clean Architecture with TDD | BLoC | Cubit** repository. This project follows **clean architecture principles** while implementing **Test-Driven Development (TDD)** and **state management using BLoC and Cubit**.  
 
-## Getting Started
+## 📌 Features  
 
-This project is a starting point for a Flutter application.
-[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+✅ **Clean Architecture** – Separation of concerns with **Presentation, Domain, and Data layers**  
+✅ **BLoC & Cubit for State Management** – Efficient and scalable state handling  
+✅ **Test-Driven Development (TDD)** – Comprehensive test coverage for reliability  
+✅ **Dependency Injection** – Uses **GetIt** for managing dependencies  
+✅ **Modular Project Structure** – Easy to maintain and scale  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+lib/
+ ├── core/                 # Core utilities and constants
+ ├── src/
+ │   ├── presentation/     # UI components and widgets
+ │   ├── domain/           # Business logic, entities, repositories, use cases
+ │   ├── data/             # Data sources, models, repository implementations
+ ├── main.dart             # Entry point of the application
