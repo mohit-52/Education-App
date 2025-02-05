@@ -1,0 +1,120 @@
+name: education_app
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^9.0.0
+  cupertino_icons: ^1.0.8
+  chewie: ^1.8.7
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  flutter_bloc: ^9.0.0
+  file_picker: ^8.1.7
+  font_awesome_flutter: ^10.8.0
+  get_it: ^8.0.3
+  iconly: ^1.0.1
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  lottie: ^3.0.0
+  open_file: ^3.5.10
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  shared_preferences: ^2.3.5
+  smooth_page_indicator: ^1.2.0+3
+  swipe_to: ^1.0.6
+  url_launcher: ^6.3.1
+  youtube_metadata: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^7.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+    - assets/lottie/
+    - assets/icons/
+
+  fonts:
+    - family: Aeonik
+      fonts:
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Bold.otf
+          weight: 700
+        - asset: assets/fonts/aeonik/AeonikTRIAL-BoldItalic.otf
+          weight: 700
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Light.otf
+          weight: 300
+        - asset: assets/fonts/aeonik/AeonikTRIAL-LightItalic.otf
+          weight: 300
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Regular.otf
+          weight: 400
+        - asset: assets/fonts/aeonik/AeonikTRIAL-RegularItalic.otf
+          weight: 400
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 800
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
