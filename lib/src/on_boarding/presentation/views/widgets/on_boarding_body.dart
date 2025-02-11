@@ -54,23 +54,22 @@ class OnBoardingBody extends StatelessWidget {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 50,
-                    vertical: 17
-                  ),
-                  backgroundColor: Colours.primaryColour,
-                  foregroundColor: Colors.white
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 50,
+                        vertical: 17
+                    ),
+                    backgroundColor: Colours.primaryColour,
+                    foregroundColor: Colors.white
                 ),
                 onPressed: ()  {
-// TODO(GET-STARTED) : IMPLEMENT THIS FUNCTIONALITY
-                // cache user
+                  // cache user
                   context.read<OnBoardingCubit>().cacheFirstTimer();
                 },
                 child: Text("Get Started",
-                style: TextStyle(
-                  fontFamily: Fonts.aeonik,
-                  fontWeight: FontWeight.bold
-                ),),
+                  style: TextStyle(
+                      fontFamily: Fonts.aeonik,
+                      fontWeight: FontWeight.bold
+                  ),),
               )
             ],
           ),
@@ -79,3 +78,5 @@ class OnBoardingBody extends StatelessWidget {
     );
   }
 }
+
+

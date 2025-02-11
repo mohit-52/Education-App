@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class DashBoard extends StatefulWidget {
   const DashBoard({super.key});
 
-  static const routeName = 'dashboard';
+  static const routeName = '/dashboard';
   @override
   State<DashBoard> createState() => _DashBoardState();
 }

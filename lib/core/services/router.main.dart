@@ -47,15 +47,16 @@ Route<dynamic> generateRoute(RouteSettings settings) {
           settings: settings);
 
     case DashBoard.routeName:
+      return _pageBuilder((_) => const DashBoard(), settings: settings);
+
+    case ForgotPasswordScreen.routeName:
       return _pageBuilder(
-          (_) => BlocProvider(
-                create: (_) => sl<AuthBloc>(),
-                child: const DashBoard(),
-              ),
-          settings: settings);
-    // case '/forgot-password':
-    //   return _pageBuilder((_) => const firebase_ui.ForgotPasswordScreen(),
-    //       settings: settings);
+  (_)=>BlocProvider(
+          create: (_) => sl<AuthBloc>(),
+          child: ForgotPasswordScreen(),
+        ),
+        settings: settings,
+      );
     default:
       return _pageBuilder(
         (_) => const PageUnderConstruction(),

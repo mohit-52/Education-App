@@ -50,19 +50,24 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBcKMHfMm7Mq-LrhRXXOfyO-cXvY27QnIc',
-    appId: '1:899402555924:android:ccb6b4e56d2129c1313d01',
-    messagingSenderId: '899402555924',
-    projectId: 'education-app-2230e',
-    storageBucket: 'education-app-2230e.firebasestorage.app',
+    apiKey: 'AIzaSyBkYezyCGG9Aqli3NBjor3rBGnTf7fjXLw',
+    appId: '1:224788759385:android:50a6d0e3384ee4cad18248',
+    messagingSenderId: '224788759385',
+    projectId: 'fir-tutorial-9d2b1',
+    databaseURL: 'https://fir-tutorial-9d2b1-default-rtdb.firebaseio.com',
+    storageBucket: 'fir-tutorial-9d2b1.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDiev4_yB-iLA6qgjZL12ccRwcfTHwb68k',
-    appId: '1:899402555924:ios:1f02c55553212791313d01',
-    messagingSenderId: '899402555924',
-    projectId: 'education-app-2230e',
-    storageBucket: 'education-app-2230e.firebasestorage.app',
+    apiKey: 'AIzaSyCFvQPgc4o4lJZJtHY4Jl6GLv8qwsQ8SD4',
+    appId: '1:224788759385:ios:04195cbe48f7015cd18248',
+    messagingSenderId: '224788759385',
+    projectId: 'fir-tutorial-9d2b1',
+    databaseURL: 'https://fir-tutorial-9d2b1-default-rtdb.firebaseio.com',
+    storageBucket: 'fir-tutorial-9d2b1.appspot.com',
+    androidClientId: '224788759385-gk6fehi23aun58kb77i1dbauh2dnj00n.apps.googleusercontent.com',
+    iosClientId: '224788759385-ftehib1ugqqshusvb4f5nl30ice1slft.apps.googleusercontent.com',
     iosBundleId: 'com.sharma.educationApp',
   );
+
 }

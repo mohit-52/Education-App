@@ -34,25 +34,28 @@ dependencies:
   swipe_to: ^1.0.6
   url_launcher: ^6.3.1
   youtube_metadata: ^1.0.1
-  firebase: ^9.0.3
-  firebase_core: ^2.32.0
-  firebase_auth: ^4.16.0
-  cloud_firestore: ^4.17.5
-  firebase_storage: ^11.6.5
-  firebase_ui_auth: ^1.7.0
+#  firebase_core: ^2.32.0
+#  firebase_auth: ^4.16.0
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  cloud_firestore: ^5.6.3
+  firebase_storage: ^12.4.2
+#  cloud_firestore: ^4.17.5
+#  firebase_storage: ^11.6.5
+#  firebase_ui_auth: ^1.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   bloc_test: ^10.0.0
   mocktail: ^1.0.4
   very_good_analysis: ^7.0.0
-  firebase_auth_mocks: ^0.13.0
-  google_sign_in_mocks: ^0.3.0
-  fake_cloud_firestore: ^2.5.2
-  firebase_storage_mocks: ^0.6.1
+#  firebase_auth_mocks: ^0.13.0
+#  google_sign_in_mocks: ^0.3.0
+#  fake_cloud_firestore: ^2.5.2
+#  firebase_storage_mocks: ^0.6.1
 
 
 flutter:

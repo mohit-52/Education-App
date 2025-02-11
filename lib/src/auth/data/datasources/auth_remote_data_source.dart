@@ -104,15 +104,15 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
     }
   }
 
-  @override
   Future<void> signUp(
       {required String email,
-      required String password,
-      required String fullName}) async {
+        required String password,
+        required String fullName}) async {
     try {
+      print("in auth remote data src");
+
       final userCred = await _authClient.createUserWithEmailAndPassword(
           email: email, password: password);
-
       await userCred.user?.updateDisplayName(fullName);
       await userCred.user?.updatePhotoURL(kDefaultAvatar);
       await _setUserData(_authClient.currentUser!, email);
@@ -131,6 +131,8 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
       );
     }
   }
+
+
 
   @override
   Future<void> updateUser({
@@ -154,12 +156,12 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
           await ref.putFile(userData as File);
           final url = await ref.getDownloadURL();
           await _authClient.currentUser?.updatePhotoURL(url);
-          await _updateUserData({'profilrPic': url});
+          await _updateUserData({'profilePic': url});
 
         case UpdateUserAction.password:
           if (_authClient.currentUser?.email == null) {
             throw ServerException(
-                message: 'Userdoes not exists',
+                message: 'User does not exists',
                 statusCode: 'Insufficient Permission');
           }
           final newData = jsonDecode(userData as String) as DataMap;

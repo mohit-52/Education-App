@@ -1,26 +1,103 @@
 {
   "project_info": {
-    "project_number": "899402555924",
-    "project_id": "education-app-2230e",
-    "storage_bucket": "education-app-2230e.firebasestorage.app"
+    "project_number": "224788759385",
+    "firebase_url": "https://fir-tutorial-9d2b1-default-rtdb.firebaseio.com",
+    "project_id": "fir-tutorial-9d2b1",
+    "storage_bucket": "fir-tutorial-9d2b1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:899402555924:android:ccb6b4e56d2129c1313d01",
+        "mobilesdk_app_id": "1:224788759385:android:9b4924a5d9325f70d18248",
         "android_client_info": {
-          "package_name": "com.sharma.education_app"
+          "package_name": "com.example.firebase_flutter"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "224788759385-gk6fehi23aun58kb77i1dbauh2dnj00n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_flutter",
+            "certificate_hash": "98ba5d3176d58de99a05af724db35b939721816f"
+          }
+        },
+        {
+          "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBcKMHfMm7Mq-LrhRXXOfyO-cXvY27QnIc"
+          "current_key": "AIzaSyBkYezyCGG9Aqli3NBjor3rBGnTf7fjXLw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224788759385:android:f059252410df96a8d18248",
+        "android_client_info": {
+          "package_name": "com.example.firebase_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYezyCGG9Aqli3NBjor3rBGnTf7fjXLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224788759385:android:50a6d0e3384ee4cad18248",
+        "android_client_info": {
+          "package_name": "com.sharma.education_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkYezyCGG9Aqli3NBjor3rBGnTf7fjXLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224788759385-j7mbejksbjugkjvoqbji9upkas5hsr52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

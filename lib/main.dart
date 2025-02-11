@@ -1,12 +1,13 @@
 import 'package:education_app/core/common/app/provider/user_provider.dart';
-import 'package:education_app/core/res/fonts.dart';
 import 'package:education_app/core/res/colors.dart';
-import 'package:provider/provider.dart';
-import 'core/services/injection_container.dart';
-import 'firebase_options.dart';
+import 'package:education_app/core/res/fonts.dart';
 import 'package:education_app/core/services/router.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import 'core/services/injection_container.dart';
+import 'firebase_options.dart';
 
 
 
