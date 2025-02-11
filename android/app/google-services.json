@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899402555924",
+    "project_id": "education-app-2230e",
+    "storage_bucket": "education-app-2230e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899402555924:android:ccb6b4e56d2129c1313d01",
+        "android_client_info": {
+          "package_name": "com.sharma.education_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcKMHfMm7Mq-LrhRXXOfyO-cXvY27QnIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

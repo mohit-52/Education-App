@@ -1,7 +1,5 @@
-import 'package:education_app/core/common/views/loading_view.dart';
 import 'package:education_app/core/extensions/context_extension.dart';
 import 'package:education_app/core/res/colors.dart';
-import 'package:education_app/core/services/router.dart';
 import 'package:education_app/src/on_boarding/domain/page_content.dart';
 import 'package:education_app/src/on_boarding/presentation/cubit/on_boarding_cubit.dart';
 import 'package:flutter/material.dart';

@@ -40,6 +40,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               Navigator.pushReplacementNamed(context, '/home ');
             } else if (state is UserCached) {
               // TODO(User-Cached_handler): Push to appropriate screen
+              Navigator.pushReplacementNamed(context, '/');
             }
           },
           builder: (context, state) {
