@@ -11,7 +11,8 @@ Welcome to the **Flutter Clean Architecture with TDD | BLoC | Cubit** repository
 ✅ **Modular Project Structure** – Easy to maintain and scale  
 
 ---
-
+# Auth Screenshots
+![education appp auth](https://github.com/user-attachments/assets/bde959a1-5d56-4184-a2de-e1688529a43c)
 ## 📂 Project Structure  
 
 ```bash
@@ -22,3 +23,7 @@ lib/
  │   ├── domain/           # Business logic, entities, repositories, use cases
  │   ├── data/             # Data sources, models, repository implementations
  ├── main.dart             # Entry point of the application
+
+
+
+
